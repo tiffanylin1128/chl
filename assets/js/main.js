@@ -47,16 +47,16 @@
     /*==========================
         Hero Title typer
     ============================*/
-    var element = $('.typed');
-
-    $(function () {
-        element.typed({
-            strings: ["Web Designer.", "Graphic Designer."],
-            typeSpeed: 100,
-            loop: true,
-            autoplay: true,
-        });
-    });
+//    var element = $('.typed');
+//
+//    $(function () {
+//        element.typed({
+//            strings: ["Web Designer.", "Graphic Designer."],
+//            typeSpeed: 100,
+//            loop: true,
+//            autoplay: true,
+//        });
+//    });
 
     /*::::::::::::::::::::::::::::::::::::
        Portfolio Section

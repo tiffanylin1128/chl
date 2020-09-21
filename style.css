@@ -2,7 +2,7 @@
 /* :: Import Fonts */
 
 
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700|Quicksand:400,700&amp;subset=chinese-traditional");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700|Quicksand:500,700&amp;subset=chinese-traditional");
 @import url(css/bootstrap.min.css);
 @import url(css/classy-nav.css);
 @import url(css/animate.css);
@@ -47,7 +47,7 @@ h6 {
 
 p {
   color: #878787;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4;
   font-family: "Quicksand", "Microsoft JhengHei"; }
 
@@ -56,7 +56,7 @@ a {
   transition-duration: 500ms;
   text-decoration: none;
   outline: none;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Quicksand", "Microsoft JhengHei";
   color: #4f4d4d; }
   a:hover, a:focus {
@@ -65,7 +65,7 @@ a {
     transition-duration: 500ms;
     text-decoration: none;
     outline: none;
-    font-size: 14px;
+    font-size: 16px;
     }
 
 #preloader {
@@ -335,7 +335,7 @@ img {
           .header-area .original-nav-area .top-social-area a {
             padding: 5px 10px; } }
   .header-area .logo-area {
-    height: 130px;
+    height: 120px;
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
     margin-bottom: 40px;
@@ -343,7 +343,7 @@ img {
     z-index: -1; }
     @media only screen and (max-width: 767px) {
       .header-area .logo-area {
-        height: 100px; } }
+        height: 90px; } }
 
 .header-area .original-nav-area {
     height: 70px;}
@@ -402,10 +402,10 @@ img {
         height: 500px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .hero-slides .single-hero-slide {
-        height: 450px; } }
+        height: 450px;} }
     @media only screen and (max-width: 767px) {
       .hero-slides .single-hero-slide {
-        height: 250px; } }
+        height: 350px; } }
     .hero-slides .single-hero-slide .slide-content {
       display: none; }
       .hero-slides .single-hero-slide .slide-content .post-tag {
@@ -418,7 +418,7 @@ img {
           border-radius: 2px;
           text-transform: uppercase;
           letter-spacing: 2px;
-          font-size: 10px;
+          font-size: 14px;
           color: #ffffff; }
       .hero-slides .single-hero-slide .slide-content h2 a {
         font-size: 40px;
@@ -437,7 +437,7 @@ img {
             font-size: 24px; } }
         @media only screen and (max-width: 767px) {
           .hero-slides .single-hero-slide .slide-content h2 a {
-            font-size: 12px;
+            font-size: 16px;
             padding: 12px 10px 5px; } }
   .hero-slides .center .single-hero-slide .slide-content {
     display: block; }
@@ -448,7 +448,7 @@ img {
     margin-top: -20px;
     width: 40px;
     height: 40px;
-    left: 7%;
+    left: 2%;
     position: absolute;
     z-index: 20;
     text-align: center;
@@ -465,7 +465,7 @@ img {
       color: #ffffff; }
   .hero-slides .owl-nav .owl-next {
     left: auto;
-    right: 7%; }
+    right: 2%; }
 
 /* Color Slide */
 
@@ -558,7 +558,7 @@ img {
 
 .experience {
     background-color: #f7f7f7;
-    padding: 80px 0 30px 0;
+    padding: 50px 0 30px 0;
 }
 .single-blog-area {
   position: relative;
@@ -594,9 +594,9 @@ img {
     margin-bottom: 20px; }
   .single-blog-area .single-blog-content .post-tag {
     color: #a1a1a1;
-    font-size: 11px;
+    font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     margin-bottom: 10px;
     display: block; }
     .single-blog-area .single-blog-content .post-tag:hover, .single-blog-area .single-blog-content .post-tag:focus {
@@ -605,7 +605,7 @@ img {
     display: inline-block;
     color: #000000;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 30px; }
     .single-blog-area .single-blog-content h4 a:hover, .single-blog-area .single-blog-content h4 a:focus {
       color: #000000; }
@@ -614,12 +614,12 @@ img {
         margin-bottom: 20px; } }
   .single-blog-area .single-blog-content > p {
     line-height: 1.6;
-    margin-bottom: 70px; }
+    margin-bottom: 30px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-blog-area .single-blog-content > p {
         margin-bottom: 30px; } }
   .single-blog-area .single-blog-content .post-meta p {
-    font-size: 9px;
+    font-size: 12px;
     text-transform: uppercase;
     margin-bottom: 0;
     letter-spacing: 3px;
@@ -627,7 +627,7 @@ img {
     .single-blog-area .single-blog-content .post-meta p:first-of-type {
       margin-right: 30px; }
     .single-blog-area .single-blog-content .post-meta p a {
-      font-size: 9px;
+      font-size: 12px;
       text-transform: uppercase;
       color: #000000;
       letter-spacing: 3px; }
